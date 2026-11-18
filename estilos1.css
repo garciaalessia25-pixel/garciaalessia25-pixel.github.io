@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+;
+}
+
+/* Oculta la pregunta al cargar la página */
+#seccionPregunta {
+    display: none;
+    margin-top: 20px;
+    background-image: url("https://cdn.pixabay.com/photo/2024/06/25/19/18/letter-8853380_640.png");
+    background-size: cover;
+    background-position: center;
+    
+    /* El contenedor necesita un tamaño para que se muestre la imagen de fondo */
+    width: 100%;
+    max-width: 650px;
+    height: 450px; /* Ajusta esta altura según lo que necesites */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Cambia el cursor a una mano al pasar sobre la imagen */
+#miImagen {
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#seccionPregunta h3{
+    position: relative;
+    left: 8px;   /* Mueve el título 50px hacia la derecha (prueba cambiando el número o usa negativos como -20px) */
+    top: 160px;    /* Mueve el título 20px hacia abajo */
+    font-size: 13px;
+}
+
+#seccionPregunta button{
+    position: relative;
+    left: 15px;   /* Mueve el título 50px hacia la derecha (prueba cambiando el número o usa negativos como -20px) */
+    top: 165px;    /* Mueve el título 20px hacia abajo */
+}
+button {
+    padding: 8px 10px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ae2323;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    width: 50px;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+#centro {
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-color: white;
+    border-color: black;
+    font-family: white;
+    
+}
+
+#centro h1{
+    color: rgba(255, 255, 255, 0.877);
+}
+
+#centro p{
+    color: rgba(255, 255, 255, 0.723);
+}
+body.body1{
+    
+    background-image: url(fondo2.png);
+    background-size: cover;
+}
